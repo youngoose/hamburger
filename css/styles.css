@@ -13,7 +13,6 @@
   -moz-transform: rotate(360deg) scale(1.3);
   -o-transform: rotate(360deg) scale(1.3);
   -ms-transform: rotate(360deg) scale(1.3);
-  animation-name: slide;
 }
 
 .bread-top {
@@ -129,4 +128,24 @@
   margin: 2% auto;
   box-shadow: inset -15px 0 #c15711;
   border-radius: 0 0 30px 30px;
+}
+
+/*small device version */
+@media (max-width: 500px){
+  .box {
+    width: 250px;
+    margin: auto;
+    margin-top: 80px;
+    height: 200px;
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+  }
+
+.box:hover {
+    -webkit-transform: rotate(360deg) scale(1.3);
+    -moz-transform: rotate(360deg) scale(1.3);
+    -o-transform: rotate(360deg) scale(1.3);
+    -ms-transform: rotate(360deg) scale(1.3);
+  }
 }
