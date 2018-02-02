@@ -5,3 +5,5 @@
 
 ### version3
 - media tag for mobile browser
+
+* This is the online course taught by Maximilian Schwarzmüller.
