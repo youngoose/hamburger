@@ -129,7 +129,6 @@
   box-shadow: inset -15px 0 #c15711;
   border-radius: 0 0 30px 30px;
 }
-<<<<<<< HEAD
 
 /*small device version */
 @media (max-width: 500px){
@@ -150,5 +149,3 @@
     -ms-transform: rotate(360deg) scale(1.3);
   }
 }
-=======
->>>>>>> 9cf33e7e611ad9b225246805759fb9dcd4d1e61b
